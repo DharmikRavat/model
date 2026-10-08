@@ -2,33 +2,35 @@ plantvillage_test
 ============================================================
                                precision    recall  f1-score   support
 
-Pepper,_bell___Bacterial_spot     1.0000    0.9867    0.9933        75
-       Pepper,_bell___healthy     0.9740    1.0000    0.9868        75
-        Potato___Early_blight     0.9740    1.0000    0.9868        75
-         Potato___Late_blight     1.0000    0.9577    0.9784        71
+Pepper,_bell___Bacterial_spot     1.0000    1.0000    1.0000        75
+       Pepper,_bell___healthy     1.0000    1.0000    1.0000        75
+        Potato___Early_blight     1.0000    1.0000    1.0000        75
+         Potato___Late_blight     0.9859    0.9859    0.9859        71
              Potato___healthy     1.0000    0.9565    0.9778        23
-        Tomato___Early_blight     0.9868    1.0000    0.9934        75
-         Tomato___Late_blight     0.9865    0.9733    0.9799        75
+        Tomato___Early_blight     0.9600    0.9600    0.9600        75
+         Tomato___Late_blight     0.9605    0.9733    0.9669        75
            Tomato___Leaf_Mold     0.9868    1.0000    0.9934        75
-  Tomato___Septoria_leaf_spot     1.0000    1.0000    1.0000        75
+  Tomato___Septoria_leaf_spot     0.9865    0.9733    0.9799        75
              Tomato___healthy     1.0000    1.0000    1.0000        75
+              __other_plant__     0.0000    0.0000    0.0000         0
 
-                     accuracy                         0.9899       694
-                    macro avg     0.9908    0.9874    0.9890       694
-                 weighted avg     0.9901    0.9899    0.9899       694
+                     accuracy                         0.9870       694
+                    macro avg     0.8982    0.8954    0.8967       694
+                 weighted avg     0.9871    0.9870    0.9870       694
 
-accuracy    : 0.9899
-macro F1    : 0.9890
-weighted F1 : 0.9899
+accuracy    : 0.9870
+macro F1    : 0.9864
+weighted F1 : 0.9870
 
 Confusion matrix (rows=actual, cols=predicted):
-[[74  1  0  0  0  0  0  0  0  0]
- [ 0 75  0  0  0  0  0  0  0  0]
- [ 0  0 75  0  0  0  0  0  0  0]
- [ 0  0  2 68  0  0  1  0  0  0]
- [ 0  1  0  0 22  0  0  0  0  0]
- [ 0  0  0  0  0 75  0  0  0  0]
- [ 0  0  0  0  0  1 73  1  0  0]
- [ 0  0  0  0  0  0  0 75  0  0]
- [ 0  0  0  0  0  0  0  0 75  0]
- [ 0  0  0  0  0  0  0  0  0 75]]
+[[75  0  0  0  0  0  0  0  0  0  0]
+ [ 0 75  0  0  0  0  0  0  0  0  0]
+ [ 0  0 75  0  0  0  0  0  0  0  0]
+ [ 0  0  0 70  0  0  1  0  0  0  0]
+ [ 0  0  0  1 22  0  0  0  0  0  0]
+ [ 0  0  0  0  0 72  2  0  1  0  0]
+ [ 0  0  0  0  0  2 73  0  0  0  0]
+ [ 0  0  0  0  0  0  0 75  0  0  0]
+ [ 0  0  0  0  0  1  0  1 73  0  0]
+ [ 0  0  0  0  0  0  0  0  0 75  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0]]
