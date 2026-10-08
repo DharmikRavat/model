@@ -1,0 +1,22 @@
+WATERING XGBOOST REPORT
+==============================================
+samples           : 12000
+features          : 19
+
+REGRESSOR (hours until watering)
+  R2              : 0.8027
+  MAE (hours)     : 19.31
+  RMSE (hours)    : 28.59
+  5-fold R2       : [0.7917, 0.7955, 0.7965, 0.8069, 0.7983]
+
+CLASSIFIER (water_now / water_later / no_watering)
+  accuracy        : 0.8483
+  macro F1        : 0.8387
+  weighted F1     : 0.8482
+  5-fold accuracy : [0.8525, 0.8454, 0.8479, 0.8442, 0.8533]
+
+action distribution:
+action
+no_watering    5555
+water_later    4189
+water_now      2256

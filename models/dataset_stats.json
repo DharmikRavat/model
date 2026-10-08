@@ -1,0 +1,26 @@
+{
+  "dataset_dir": "dataset",
+  "total_files": 4621,
+  "classes": {
+    "Pepper,_bell___Bacterial_spot": 500,
+    "Pepper,_bell___healthy": 500,
+    "Potato___Early_blight": 500,
+    "Potato___Late_blight": 469,
+    "Potato___healthy": 152,
+    "Tomato___Early_blight": 500,
+    "Tomato___Late_blight": 500,
+    "Tomato___Leaf_Mold": 500,
+    "Tomato___Septoria_leaf_spot": 500,
+    "Tomato___healthy": 500
+  },
+  "corrupted": [],
+  "unsupported": [],
+  "too_small": [],
+  "dimensions": {
+    "256x256": 4621
+  },
+  "class_imbalance_detected": true,
+  "imbalance_ratio": 3.289473684210526,
+  "exact_duplicates": 1,
+  "near_duplicates": 280
+}

@@ -1,0 +1,384 @@
+{
+  "plantvillage_test": {
+    "aggregate": {
+      "accuracy": 0.9899,
+      "f1_macro": 0.989,
+      "f1_weighted": 0.9899
+    },
+    "per_class": {
+      "Pepper,_bell___Bacterial_spot": {
+        "precision": 1.0,
+        "recall": 0.9867,
+        "f1": 0.9933,
+        "support": 75
+      },
+      "Pepper,_bell___healthy": {
+        "precision": 0.974,
+        "recall": 1.0,
+        "f1": 0.9868,
+        "support": 75
+      },
+      "Potato___Early_blight": {
+        "precision": 0.974,
+        "recall": 1.0,
+        "f1": 0.9868,
+        "support": 75
+      },
+      "Potato___Late_blight": {
+        "precision": 1.0,
+        "recall": 0.9577,
+        "f1": 0.9784,
+        "support": 71
+      },
+      "Potato___healthy": {
+        "precision": 1.0,
+        "recall": 0.9565,
+        "f1": 0.9778,
+        "support": 23
+      },
+      "Tomato___Early_blight": {
+        "precision": 0.9868,
+        "recall": 1.0,
+        "f1": 0.9934,
+        "support": 75
+      },
+      "Tomato___Late_blight": {
+        "precision": 0.9865,
+        "recall": 0.9733,
+        "f1": 0.9799,
+        "support": 75
+      },
+      "Tomato___Leaf_Mold": {
+        "precision": 0.9868,
+        "recall": 1.0,
+        "f1": 0.9934,
+        "support": 75
+      },
+      "Tomato___Septoria_leaf_spot": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 75
+      },
+      "Tomato___healthy": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 75
+      }
+    },
+    "confusion_matrix": [
+      [
+        74,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        75,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        75,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        68,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        22,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        75,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        73,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        75,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        75,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        75
+      ]
+    ]
+  },
+  "plantdoc_real_world": {
+    "aggregate": {
+      "accuracy": 0.5753,
+      "f1_macro": 0.5058,
+      "f1_weighted": 0.5878
+    },
+    "per_class": {
+      "Pepper,_bell___Bacterial_spot": {
+        "precision": 1.0,
+        "recall": 0.5556,
+        "f1": 0.7143,
+        "support": 9
+      },
+      "Pepper,_bell___healthy": {
+        "precision": 0.625,
+        "recall": 0.7143,
+        "f1": 0.6667,
+        "support": 7
+      },
+      "Potato___Early_blight": {
+        "precision": 0.3333,
+        "recall": 0.375,
+        "f1": 0.3529,
+        "support": 8
+      },
+      "Potato___Late_blight": {
+        "precision": 0.3333,
+        "recall": 0.375,
+        "f1": 0.3529,
+        "support": 8
+      },
+      "Potato___healthy": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0
+      },
+      "Tomato___Early_blight": {
+        "precision": 0.75,
+        "recall": 0.6667,
+        "f1": 0.7059,
+        "support": 9
+      },
+      "Tomato___Late_blight": {
+        "precision": 0.5,
+        "recall": 0.5556,
+        "f1": 0.5263,
+        "support": 9
+      },
+      "Tomato___Leaf_Mold": {
+        "precision": 0.25,
+        "recall": 0.25,
+        "f1": 0.25,
+        "support": 4
+      },
+      "Tomato___Septoria_leaf_spot": {
+        "precision": 0.6429,
+        "recall": 0.8182,
+        "f1": 0.72,
+        "support": 11
+      },
+      "Tomato___healthy": {
+        "precision": 1.0,
+        "recall": 0.625,
+        "f1": 0.7692,
+        "support": 8
+      }
+    },
+    "confusion_matrix": [
+      [
+        5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      [
+        0,
+        5,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        4,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        3,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        6,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        5,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        9,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        5
+      ]
+    ]
+  }
+}

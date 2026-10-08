@@ -1,0 +1,45 @@
+                               precision    recall  f1-score   support
+
+Pepper,_bell___Bacterial_spot     1.0000    0.9867    0.9933        75
+       Pepper,_bell___healthy     0.9868    1.0000    0.9934        75
+        Potato___Early_blight     0.9375    1.0000    0.9677        75
+         Potato___Late_blight     0.9444    0.9577    0.9510        71
+             Potato___healthy     0.9167    0.9565    0.9362        23
+        Tomato___Early_blight     0.9692    0.8400    0.9000        75
+         Tomato___Late_blight     0.9583    0.9200    0.9388        75
+           Tomato___Leaf_Mold     0.9855    0.9067    0.9444        75
+  Tomato___Septoria_leaf_spot     0.8974    0.9333    0.9150        75
+             Tomato___healthy     0.8929    1.0000    0.9434        75
+
+                     accuracy                         0.9496       694
+                    macro avg     0.9489    0.9501    0.9483       694
+                 weighted avg     0.9513    0.9496    0.9492       694
+
+Overall accuracy: 0.9496
+Macro F1        : 0.9483
+Weighted F1     : 0.9492
+Species acc     : 0.9870
+
+Confusion matrix rows=actual, cols=predicted, labels order:
+  0: Pepper,_bell___Bacterial_spot
+  1: Pepper,_bell___healthy
+  2: Potato___Early_blight
+  3: Potato___Late_blight
+  4: Potato___healthy
+  5: Tomato___Early_blight
+  6: Tomato___Late_blight
+  7: Tomato___Leaf_Mold
+  8: Tomato___Septoria_leaf_spot
+  9: Tomato___healthy
+
+Confusion matrix:
+[[74  1  0  0  0  0  0  0  0  0]
+ [ 0 75  0  0  0  0  0  0  0  0]
+ [ 0  0 75  0  0  0  0  0  0  0]
+ [ 0  0  0 68  2  0  1  0  0  0]
+ [ 0  0  0  1 22  0  0  0  0  0]
+ [ 0  0  3  0  0 63  2  0  4  3]
+ [ 0  0  1  2  0  2 69  0  1  0]
+ [ 0  0  0  0  0  0  0 68  3  4]
+ [ 0  0  1  1  0  0  0  1 70  2]
+ [ 0  0  0  0  0  0  0  0  0 75]]

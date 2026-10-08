@@ -1,0 +1,309 @@
+{
+  "model": "D:\\aiurban\\model\\models\\plant_disease_model.keras",
+  "test_images": 694,
+  "dataset_dir": "D:\\aiurban\\model\\dataset",
+  "class_names": [
+    "Pepper,_bell___Bacterial_spot",
+    "Pepper,_bell___healthy",
+    "Potato___Early_blight",
+    "Potato___Late_blight",
+    "Potato___healthy",
+    "Tomato___Early_blight",
+    "Tomato___Late_blight",
+    "Tomato___Leaf_Mold",
+    "Tomato___Septoria_leaf_spot",
+    "Tomato___healthy"
+  ],
+  "accuracy": 0.9496,
+  "precision_macro": 0.9489,
+  "recall_macro": 0.9501,
+  "f1_macro": 0.9483,
+  "precision_weighted": 0.9513,
+  "recall_weighted": 0.9496,
+  "f1_weighted": 0.9492,
+  "species_accuracy": 0.987,
+  "mean_confidence": 0.9426,
+  "per_class": {
+    "Pepper,_bell___Bacterial_spot": {
+      "precision": 1.0,
+      "recall": 0.9867,
+      "f1": 0.9933,
+      "support": 75
+    },
+    "Pepper,_bell___healthy": {
+      "precision": 0.9868,
+      "recall": 1.0,
+      "f1": 0.9934,
+      "support": 75
+    },
+    "Potato___Early_blight": {
+      "precision": 0.9375,
+      "recall": 1.0,
+      "f1": 0.9677,
+      "support": 75
+    },
+    "Potato___Late_blight": {
+      "precision": 0.9444,
+      "recall": 0.9577,
+      "f1": 0.951,
+      "support": 71
+    },
+    "Potato___healthy": {
+      "precision": 0.9167,
+      "recall": 0.9565,
+      "f1": 0.9362,
+      "support": 23
+    },
+    "Tomato___Early_blight": {
+      "precision": 0.9692,
+      "recall": 0.84,
+      "f1": 0.9,
+      "support": 75
+    },
+    "Tomato___Late_blight": {
+      "precision": 0.9583,
+      "recall": 0.92,
+      "f1": 0.9388,
+      "support": 75
+    },
+    "Tomato___Leaf_Mold": {
+      "precision": 0.9855,
+      "recall": 0.9067,
+      "f1": 0.9444,
+      "support": 75
+    },
+    "Tomato___Septoria_leaf_spot": {
+      "precision": 0.8974,
+      "recall": 0.9333,
+      "f1": 0.915,
+      "support": 75
+    },
+    "Tomato___healthy": {
+      "precision": 0.8929,
+      "recall": 1.0,
+      "f1": 0.9434,
+      "support": 75
+    }
+  },
+  "confusion_matrix": [
+    [
+      74,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      75,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      75,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      68,
+      2,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      22,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0,
+      0,
+      63,
+      2,
+      0,
+      4,
+      3
+    ],
+    [
+      0,
+      0,
+      1,
+      2,
+      0,
+      2,
+      69,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      68,
+      3,
+      4
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      70,
+      2
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      75
+    ]
+  ],
+  "top_misclassifications": [
+    {
+      "actual": "Tomato___Leaf_Mold",
+      "predicted": "Tomato___healthy",
+      "count": 4
+    },
+    {
+      "actual": "Tomato___Early_blight",
+      "predicted": "Tomato___Septoria_leaf_spot",
+      "count": 4
+    },
+    {
+      "actual": "Tomato___Leaf_Mold",
+      "predicted": "Tomato___Septoria_leaf_spot",
+      "count": 3
+    },
+    {
+      "actual": "Tomato___Early_blight",
+      "predicted": "Tomato___healthy",
+      "count": 3
+    },
+    {
+      "actual": "Tomato___Early_blight",
+      "predicted": "Potato___Early_blight",
+      "count": 3
+    },
+    {
+      "actual": "Tomato___Septoria_leaf_spot",
+      "predicted": "Tomato___healthy",
+      "count": 2
+    },
+    {
+      "actual": "Tomato___Late_blight",
+      "predicted": "Tomato___Early_blight",
+      "count": 2
+    },
+    {
+      "actual": "Tomato___Late_blight",
+      "predicted": "Potato___Late_blight",
+      "count": 2
+    },
+    {
+      "actual": "Tomato___Early_blight",
+      "predicted": "Tomato___Late_blight",
+      "count": 2
+    },
+    {
+      "actual": "Potato___Late_blight",
+      "predicted": "Potato___healthy",
+      "count": 2
+    },
+    {
+      "actual": "Tomato___Septoria_leaf_spot",
+      "predicted": "Tomato___Leaf_Mold",
+      "count": 1
+    },
+    {
+      "actual": "Tomato___Septoria_leaf_spot",
+      "predicted": "Potato___Late_blight",
+      "count": 1
+    },
+    {
+      "actual": "Tomato___Septoria_leaf_spot",
+      "predicted": "Potato___Early_blight",
+      "count": 1
+    },
+    {
+      "actual": "Tomato___Late_blight",
+      "predicted": "Tomato___Septoria_leaf_spot",
+      "count": 1
+    },
+    {
+      "actual": "Tomato___Late_blight",
+      "predicted": "Potato___Early_blight",
+      "count": 1
+    },
+    {
+      "actual": "Potato___healthy",
+      "predicted": "Potato___Late_blight",
+      "count": 1
+    },
+    {
+      "actual": "Potato___Late_blight",
+      "predicted": "Tomato___Late_blight",
+      "count": 1
+    },
+    {
+      "actual": "Pepper,_bell___Bacterial_spot",
+      "predicted": "Pepper,_bell___healthy",
+      "count": 1
+    }
+  ],
+  "limitations": [
+    "Training data consists of isolated-leaf images (PlantVillage-style); complete-plant photograph performance is not guaranteed.",
+    "No severity labels in the dataset => severity not predicted.",
+    "Out-of-distribution rejection is confidence-based only (no true OOD detector)."
+  ],
+  "evaluated_at": "2026-10-08 18:58:15",
+  "eval_seconds": 20.1
+}

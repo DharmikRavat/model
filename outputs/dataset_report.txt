@@ -1,0 +1,45 @@
+DATASET REPORT
+------------------------------------------------------------
+Dataset directory : D:\model\dataset
+Total image files : 4621
+Class folders     : 10
+
+Classes:
+  Pepper,_bell___Bacterial_spot: 500
+  Pepper,_bell___healthy: 500
+  Potato___Early_blight: 500
+  Potato___Late_blight: 469
+  Potato___healthy: 152
+  Tomato___Early_blight: 500
+  Tomato___Late_blight: 500
+  Tomato___Leaf_Mold: 500
+  Tomato___Septoria_leaf_spot: 500
+  Tomato___healthy: 500
+
+Corrupted         : 0
+Unsupported ext   : 0
+Very small (<64px): 0
+
+Image dimensions (top 8):
+  256x256: 4621
+  min=[256, 256] max=[256, 256] mean=[256.0, 256.0]
+
+Class imbalance   : detected (max/min ratio = 3.29, flag threshold = 1.5)
+  largest class : Pepper,_bell___Bacterial_spot (500)
+  smallest class: Potato___healthy (152)
+
+Extremely dark    : 29
+Extremely bright  : 0
+
+Exact duplicates  : 1
+  - Tomato___Late_blight\3fae9c64-18f0-4a67-9f97-554248bb1bed___GHLB_PS Leaf 24 Day 16.jpg == Tomato___Late_blight\5de6da85-f8c4-48c4-b463-3e6bd78884cc___GHLB_PS Leaf 24 Day 16.jpg
+Near-duplicates   : 280 (hamming<=8 on 64-bit dHash)
+  - ['Pepper,_bell___Bacterial_spot\\0726c166-3471-41a8-8fe6-18600e89e802___NREC_B.Spot 1812.JPG', 'Pepper,_bell___Bacterial_spot\\95846c59-3b47-477f-93f1-4f857099be3d___NREC_B.Spot 9203.JPG']
+  - ['Pepper,_bell___Bacterial_spot\\0fe8a42b-b943-43d6-88c4-78abdcbfe02d___NREC_B.Spot 9236.JPG', 'Pepper,_bell___Bacterial_spot\\178e960f-3250-4378-9783-765b65e54217___NREC_B.Spot 1881.JPG', 'Pepper,_bell___Bacterial_spot\\7642e377-d6af-4092-ae84-a1fa10a7f1e1___NREC_B.Spot 1914.JPG']
+  - ['Pepper,_bell___Bacterial_spot\\24783ea0-432e-4e74-b561-58b9d7fe88dc___NREC_B.Spot 9166.JPG', 'Pepper,_bell___Bacterial_spot\\357afd4d-f9d0-433b-8082-d9318a7f674a___NREC_B.Spot 9134.JPG']
+  - ['Pepper,_bell___Bacterial_spot\\2700e5b5-295c-4378-b829-0e5989864380___NREC_B.Spot 9091.JPG', 'Pepper,_bell___Bacterial_spot\\de583596-e89f-4a21-be43-a6629318bd6e___NREC_B.Spot 1840.JPG']
+  - ['Pepper,_bell___Bacterial_spot\\276e68d4-8a80-4260-a47d-da9eb588bb7b___JR_B.Spot 3319.JPG', 'Pepper,_bell___Bacterial_spot\\da80eee6-ceb1-4d53-b783-3e865087ed26___JR_B.Spot 3314.JPG']
+
+Usable images     : 4621
+Recommendation    : OK to train.
+------------------------------------------------------------
